@@ -1,5 +1,5 @@
 # cryptoseb.pw | Website Files
-I created this website back in 2015 (I think) using Adobe Muse. Now, Muse has longsince been lost in the archived code of a program nobody cares about anymore, so there's a potential of some security holes here. I went and updated this site sometime in 2019, I think, but really haven't touched it since. 
+I created this website back in 2015 (I think) using Adobe Muse. Now, Muse has longsince been lost as a program that is not maintained or cared about anymore, so there's a potential of some security holes here. Feel free to fix them for me and send me the updated versions, haha. I went and updated this site sometime in 2019, I think, but really haven't touched it since. I'll update it sometime down the road once this tech-journey becomes more extensive.
 
 ## Some More Information:
 
