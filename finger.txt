@@ -1,0 +1,81 @@
+[+]###[+]###[+]###[+]###[+]###[+]###[+]###[+]###[+]###[+]###[+]
+[+]                                                         [+]
+[+]         ALL MY FINGERPRINTS ARE SIGNED BELOW            [+]
+[+]                                                         [+]
+[+]         wget https://cryptoseb.pw/finger.txt            [+]
+[+]                                                         [+]
+[+]###[+]###[+]###[+]###[+]###[+]###[+]###[+]###[+]###[+]###[+]
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+
+                Updated: September 28th, 2018
+       Changelog: Updated PGP Key (removed expiration)
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:                     PGP Fingerprints                        :
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+Primary Key: 3AD3 9647 76F7 B42B 5F47 2F58 725C 86A6 EAA8 6C72
+
+ProtonMail: 4445 c609 c971 08a2 c6e3 ed06 dde4 7dc8 83c2 ebd9 (root@cryptoseb.pw)
+
+Backup Key: D3CF 7126 71E3 9327 B170  8263 77E1 DAD9 F3E2 0211
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:                     App Fingerprints                        :
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+Wire
+    > iPhone: 0df1 97b6 8076 4774 be36 8781 9b38 8b7a d863 96db 2342 b62b d28c 3f09 6b08 b987
+    > Desktop: dc63 6484 6852 a648 3428 c3b9 4fba 9101 86ba 49a0 1f00 0433 8a7c f127 4c16 2684
+
+Signal
+    > Verify our Signal Safety Numbers.
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:                     OTR Fingerprints                        :
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+root@cryptoseb.pw  // XMPP (Desktop - Adium)
+    > Off-The-Record: 8D97 B52E 89FA DD05 A973 4E70 4ECE B92B 3F96 DAC4
+
+root@cryptoseb.pw  // XMPP (Mobile - ChatSecure)
+    > Off-The-Record: DC8D 1838 E2CF BE9D CEF1 9C4B 2CF1 3F68 F656 CB3E
+    > OMEMO: 0597 5F25 822C D631 965F 9EB3 D932 DC71 3E96 7175 F2EE 0FFB 417C B409 9AFB 0648
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:                     SSH Fingerprints                        :
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+8192 RSA SSH Key
+    > Fingerprint: 22:0d:b8:9f:55:8a:f4:3f:52:4d:c3:11:b3:e3:c7:c7
+
+Ed25519 SSH Key
+    > 256 SHA256:Nt4cwRVo7TziKEuHmXb9w2Gs+Rjb8PjTIPxA/Xow4/Y root@cryptoseb.pw (ED25519)
+
+-----BEGIN PGP SIGNATURE-----
+Comment: https://cryptoseb.pw
+
+iQIzBAEBCgAdFiEEOtOWR3b3tCtfRy9YclyGpuqobHIFAluvE+gACgkQclyGpuqo
+bHKPRw//Vy5XNtseE+9Gbzzd2MpcIH/HHv/ZHtwdn99UvOurm6C/mMIgD4GuyXGU
+E9LnyJ921+D/sTlOxQLJN2kF6gEU7z0bCtuy9jmxGvLNWuCwCbEUFLZKRkoOZ5/E
+3DHpCsK44I1H3a+OBVr/chNcuQ6T9ILbGL4icdhjEoOtzrGYq3vece0fVGH1v/Sw
+5Zt4MshWr2e2EO2H76+kKa3Ppk7O1aLqoVUqzoRizz/W+0EehOMFRGdHqGtqKoDU
+SdH2xaJVveBNFPlwczp/VVVa15gu0BuKCBvd7kv0Fn0yJRk+8z3FV95ZCf/CaDAp
+vtFxfbfW1fbh7zvw9oCUXJ8KScBUX24GjLffv0eR7cGHAEVahyHZ6wkyngZZsgGx
+7dx1ODfwXutB9XIzdgr9p4iC7txHmqWCABQShLAs8grQGB8BVcrvsbvZX+eLIhWN
+9SMSQXMMaNrk9TRl++Gpmhlm48ntszkE8vzixpTHBKT6Bj5C4tZ5aCHPjxSo7myT
+WEKtE68nm6ukABkAAOFz6CxfUYPFeRXyjkHuLpjPIz7iEVHcnBju/5OAcsoSc372
+DjdCCF0XIIFUAqoECmpzF4cqHN4skV5O0ILbjtHmskMvdsi2prIsznabJhV4if6n
+Qjg8Lh082vv3KLp2bSzVNbrmmwpEOXXeMOiFMhjsGg3nlNQN228=
+=UNbG
+-----END PGP SIGNATURE-----
