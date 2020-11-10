@@ -1,6 +1,4 @@
-/*
-CSS Google Fonts import
-*/
+/*---- CSS Google Fonts import ----*/
 
 @import url("https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,300,400,500,700,800|Jura:300,400,500|Coming+Soon:400");
 @import "arrows.css";
@@ -51,7 +49,7 @@ h2 {
 h3, h4, h5 {
   font-family: "Coming Soon", sans-serif;
   font-weight: 400;
-  color: #545454;
+  font-color: #545454;
   }
 
 /*---- Logo ----*/
@@ -107,7 +105,113 @@ p a:hover {
 }
 
 /*---- About Section ----*/
-.about {
+.about-head {
    text-align: center;
    font-size: 18px;
+   height: 60%;
+   position: relative;
+   text-align: center;
+   background-image: url("../images/funky-lines.png");
+   overflow-x: auto;
+   overflow-y: auto;
+   text-rendering: optimizeLegibility;
+   font-kerning: initial;
+   -webkit-font-smoothing: subpixel-antialiased;
+   -moz-osx-font-smoothing:  inherit;
+   margin-top: -10px;
+   margin-bottom: -20px;
+   border-top: solid;
+   border-top-color: #700099;
+   border-top-width: 2px;
+   border-bottom: solid;
+   border-bottom-color: #700099;
+   border-bottom-width: 2px;
+}
+
+.about-head h2 {
+    color: #700099;
+    font-size: 1.5em;
+    font-family: "Coming Soon", sans-serif;
+    text-align: center;
+}
+
+.about-body {
+  text-align: center;
+}
+
+.about-body p{
+    padding-top: 20px;
+    font-size: 20px;
+    font-color: #545454;
+    word-wrap: break-word;
+    font-family: "Jura", sans-serify;
+    font-weight: 300;
+    line-height: 24px;
+    max-width: 1000px;
+    min-width: 100px;
+    text-align: center;
+}
+.about-body ul {
+    font-size: 20px;
+    text-align: center;
+    word-wrap: break-word;
+    font-family: "Jura", sans-serify;
+    font-weight: 300;
+    line-height: 24px;
+    list-style: none;
+
+}
+
+/*---- Projects Section ----*/
+.projects-head {
+   text-align: center;
+   font-size: 18px;
+   height: 60%;
+   position: relative;
+   text-align: center;
+   background-image: url("../images/funky-lines.png");
+   overflow-x: auto;
+   overflow-y: auto;
+   text-rendering: optimizeLegibility;
+   font-kerning: initial;
+   -webkit-font-smoothing: subpixel-antialiased;
+   -moz-osx-font-smoothing:  inherit;
+   margin-top: -10px;
+   margin-bottom: -20px;
+   border-top: solid;
+   border-top-color: #700099;
+   border-top-width: 2px;
+   border-bottom: solid;
+   border-bottom-color: #700099;
+   border-bottom-width: 2px;
+}
+
+.projects-head h2 {
+    color: #700099;
+    font-size: 1.5em;
+    font-family: "Coming Soon", sans-serif;
+    text-align: center;
+}
+.projects-body {
+}
+
+.projects-body p {
+    padding-top: 20px;
+    font-size: 20px;
+    font-color: #545454;
+    text-align: center;
+    word-wrap: break-word;
+    font-family: "Jura", sans-serify;
+    font-weight: 300;
+    line-height: 24px;
+}
+.projects-body ul {
+    font-size: 20px;
+    text-align: center;
+    word-wrap: break-word;
+    font-family: "Jura", sans-serify;
+    font-weight: 300;
+    line-height: 24px;
+    list-style: none;
+
 }
