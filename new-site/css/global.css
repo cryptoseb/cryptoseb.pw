@@ -1,0 +1,112 @@
+/*
+CSS Google Fonts import
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,300,400,500,700,800|Jura:300,400,500|Coming+Soon:400");
+@import "arrows.css";
+
+/*---- Hero Header ---*/
+.hero  {
+  height: 100%;
+  position: relative;
+  text-align: center;
+  background-image: url("../images/funky-lines.png");
+  overflow-x: auto;
+  overflow-y: auto;
+  text-rendering: optimizeLegibility;
+  font-kerning: initial;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing:  inherit;
+  margin-top: -10px;
+  border-bottom: solid;
+  border-bottom-color: #700099;
+  border-bottom-width: 2px;
+}
+
+/*----- Text Items -----*/
+p {
+    line-height: 18px;
+    position: relative;
+    border-radius: 5px;
+    font-size: 14px;
+    word-wrap: break-word;
+    font-family: "Jura", sans-serify;
+    font-weight: 300;
+}
+
+h1 {    
+	font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 800;
+    font-size: 72px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+h2 {
+	font-family: "Coming Soon", sans-serif;
+	font-weight: 400;
+  color: #000000;
+}
+
+h3, h4, h5 {
+  font-family: "Coming Soon", sans-serif;
+  font-weight: 400;
+  color: #545454;
+  }
+
+/*---- Logo ----*/
+.logo {
+  max-width: 14%;
+  max-height: 14%;
+  transition: 1.5s;
+  transition: transform 1.5s;
+  -o-transition:  1.5s;
+  -ms-transition: 1.5s;
+  -webkit-transition: 1.5s;
+}
+
+/*---- Logo Hover Effect - I got this idea from my friend @ https://beard.gg ----*/
+.logo:hover {
+  transform: rotateY(180deg);
+
+}
+
+/*---- Links ----*/
+a {
+    outline: none;
+    border:none;
+    color:#000000;
+    font-size:28px;
+    cursor:pointer;
+    text-decoration:none;
+    text-shadow:none;
+    transition:ease 200ms;
+    -webkit-transition:ease 200ms;
+}
+a:hover {
+	color:#700099;
+    transition:ease 200ms;
+    -webkit-transition:ease 200ms;
+}
+p a:hover {
+	color:#ffffff;
+	background-color:#700099;
+	border-radius:2px;
+	padding:2px;
+	transition:ease 200ms;
+    -webkit-transition:ease 200ms;
+}
+
+/*---- Navigation Bar ----*/
+.intro {
+	text-align: center;
+	position: relative;
+    font-size: 24px;
+    font-family: "Coming Soon", sans-serif;
+    font-weight: 400;
+}
+
+/*---- About Section ----*/
+.about {
+  text-align: center;
+  font-size: 18px;
+}
