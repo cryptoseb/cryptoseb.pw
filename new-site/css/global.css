@@ -28,23 +28,24 @@ p {
     line-height: 18px;
     position: relative;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 20px;
     word-wrap: break-word;
     font-family: "Jura", sans-serify;
     font-weight: 300;
 }
 
 h1 {    
-	font-family: "Alegreya Sans SC", sans-serif;
+    font-family: "Alegreya Sans SC", sans-serif;
     font-weight: 800;
-    font-size: 72px;
+    font-size: 3.5em;
     margin-top: 25px;
     margin-bottom: 15px;
 }
 h2 {
-	font-family: "Coming Soon", sans-serif;
-	font-weight: 400;
-  color: #000000;
+    font-family: "Coming Soon", sans-serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 1.5em;
 }
 
 h3, h4, h5 {
@@ -55,13 +56,13 @@ h3, h4, h5 {
 
 /*---- Logo ----*/
 .logo {
-  max-width: 14%;
-  max-height: 14%;
-  transition: 1.5s;
-  transition: transform 1.5s;
-  -o-transition:  1.5s;
-  -ms-transition: 1.5s;
-  -webkit-transition: 1.5s;
+    max-width: 40%;
+    max-height: 40%;
+    transition: 1.5s;
+    transition: transform 1.5s;
+    -o-transition:  1.5s;
+    -ms-transition: 1.5s;
+    -webkit-transition: 1.5s;
 }
 
 /*---- Logo Hover Effect - I got this idea from my friend @ https://beard.gg ----*/
@@ -83,30 +84,30 @@ a {
     -webkit-transition:ease 200ms;
 }
 a:hover {
-	color:#700099;
+    color:#700099;
     transition:ease 200ms;
     -webkit-transition:ease 200ms;
 }
 p a:hover {
-	color:#ffffff;
-	background-color:#700099;
-	border-radius:2px;
-	padding:2px;
-	transition:ease 200ms;
-    -webkit-transition:ease 200ms;
+   color:#ffffff;
+   background-color:#700099;
+   border-radius:2px;
+   padding:2px;
+   transition:ease 200ms;
+   -webkit-transition:ease 200ms;
 }
 
 /*---- Navigation Bar ----*/
 .intro {
-	text-align: center;
-	position: relative;
-    font-size: 24px;
-    font-family: "Coming Soon", sans-serif;
-    font-weight: 400;
+   text-align: center;
+   position: relative;
+   font-size: 24px;
+   font-family: "Coming Soon", sans-serif;
+   font-weight: 400;
 }
 
 /*---- About Section ----*/
 .about {
-  text-align: center;
-  font-size: 18px;
+   text-align: center;
+   font-size: 18px;
 }
