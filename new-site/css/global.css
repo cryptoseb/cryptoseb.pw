@@ -30,6 +30,7 @@ p {
     word-wrap: break-word;
     font-family: "Jura", sans-serify;
     font-weight: 300;
+    text-align: center;
 }
 
 h1 {    
@@ -66,7 +67,6 @@ h3, h4, h5 {
 /*---- Logo Hover Effect - I got this idea from my friend @ https://beard.gg ----*/
 .logo:hover {
   transform: rotateY(180deg);
-
 }
 
 /*---- Links ----*/
@@ -139,8 +139,8 @@ p a:hover {
   text-align: center;
 }
 
-.about-body p{
-    padding-top: 20px;
+.about-body p {
+    padding-top: 40px;
     font-size: 20px;
     font-color: #545454;
     word-wrap: break-word;
@@ -149,7 +149,9 @@ p a:hover {
     line-height: 24px;
     max-width: 1000px;
     min-width: 100px;
-    text-align: center;
+    margin: auto;
+    width: 90%
+    display: inline-block;
 }
 .about-body ul {
     font-size: 20px;
@@ -159,6 +161,7 @@ p a:hover {
     font-weight: 300;
     line-height: 24px;
     list-style: none;
+    padding: 0;
 
 }
 
@@ -195,15 +198,19 @@ p a:hover {
 .projects-body {
 }
 
-.projects-body p {
-    padding-top: 20px;
+.projects-body p{
+    padding-top: 40px;
     font-size: 20px;
     font-color: #545454;
-    text-align: center;
     word-wrap: break-word;
     font-family: "Jura", sans-serify;
     font-weight: 300;
     line-height: 24px;
+    max-width: 1000px;
+    min-width: 100px;
+    margin: auto;
+    width: 90%
+    display: inline-block;
 }
 .projects-body ul {
     font-size: 20px;
@@ -213,5 +220,36 @@ p a:hover {
     font-weight: 300;
     line-height: 24px;
     list-style: none;
-
 }
+.projects-body a {
+    outline: none;
+    border:none;
+    color:#700099;
+    font-size:20px;
+    cursor:pointer;
+    text-decoration:none;
+    text-shadow:none;
+    transition:ease 200ms;
+    -webkit-transition:ease 200ms;
+}
+.projects-body a:hover {
+    color:#700099;
+    transition:ease 200ms;
+    -webkit-transition:ease 200ms;
+}
+.projects-body p a:hover {
+   color:#ffffff;
+   background-color:#700099;
+   border-radius:2px;
+   padding:2px;
+   transition:ease 200ms;
+   -webkit-transition:ease 200ms;
+   }
+   .projects-body ul a:hover {
+   color:#ffffff;
+   background-color:#700099;
+   border-radius:2px;
+   padding:2px;
+   transition:ease 200ms;
+   -webkit-transition:ease 200ms;
+ }
