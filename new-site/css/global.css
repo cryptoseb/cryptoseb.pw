@@ -2,8 +2,6 @@
 @import url("https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,300,400,500,700,800|Jura:300,400,500|Coming+Soon:400");
 
 /*---- Import Other CSS Files ----*/
-@import "arrows.css";
-@import "arrows-social.css";
 
 /*---- Hero Header ---*/
 .hero  {
@@ -22,6 +20,7 @@
   border-bottom-color: #700099;
   border-bottom-width: 2px;
 }
+
 /*---- Menu ----*/
 
 *{
@@ -43,7 +42,7 @@
   font-weight: 300px;
   max-width: 600px;
   margin: 5px auto;
-  margin-bottom:30px;
+  margin-bottom: 30px;
   overflow: hidden;
 }
 
@@ -139,7 +138,7 @@
 .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
 
 /*----- Text Items -----*/
-.home p {
+ p {
     padding-top: 0px;
     font-size: 20px;
     color: #545454;
@@ -153,9 +152,15 @@
     width: 90%
     display: inline-block;
     padding-bottom: 40px;
+    text-align: center;
 }
 
-h1 {    
+ em {
+  font-style: normal;
+  color: #166bc4;
+}
+
+ h1 {    
     font-family: "Alegreya Sans SC";
     font-weight: 800;
     font-size: 3.5em;
@@ -163,17 +168,34 @@ h1 {
     margin-bottom: 15px;
 }
 
-h2 {
+ h2 {
     font-family: "Coming Soon";
     font-weight: 400;
     color: #000000;
     font-size: 1.5em;
 }
 
-h3, h4, h5 {
+ h3, h4, h5 {
   font-family: "Coming Soon";
   font-weight: 400;
   color: #545454;
+  }
+
+  pre {
+    padding-top: 0px;
+    font-size: 20px;
+    color: #545454;
+    word-wrap: break-word;
+    font-family: "Jura";
+    font-weight: 300;
+    line-height: 24px;
+    max-width: 800px;
+    min-width: 100px;
+    margin: auto;
+    width: 90%
+    display: inline-block;
+    padding-bottom: 40px;
+    text-align: center;
   }
 
 /*---- Logo ----*/
@@ -193,7 +215,7 @@ h3, h4, h5 {
 }
 
 /*---- Links ----*/
-a {
+ a {
     outline: none;
     border:none;
     color:#000000;
@@ -205,108 +227,13 @@ a {
     -webkit-transition:ease 200ms;
 }
 
-a:hover {
+ a:hover {
     color:#700099;
     transition:ease 200ms;
     -webkit-transition:ease 200ms;
 }
 
-p a:hover {
-   color:#ffffff;
-   background-color:#700099;
-   border-radius:2px;
-   padding:2px;
-   transition:ease 200ms;
-   -webkit-transition:ease 200ms;
-}
-
-/*---- Hero Header ---*/
-.hero-about  {
-  height: 100%;
-  position: relative;
-  text-align: center;
-  background-image: url("../images/funky-lines.png");
-  overflow-x: auto;
-  overflow-y: auto;
-  text-rendering: optimizeLegibility;
-  font-kerning: initial;
-  -webkit-font-smoothing: subpixel-antialiased;
-  -moz-osx-font-smoothing:  inherit;
-  margin-top: -10px;
-  border-bottom: solid;
-  border-bottom-color: #700099;
-  border-bottom-width: 2px;
-}
-
-/*----- Text Items -----*/
-p {
-    line-height: 18px;
-    position: relative;
-    border-radius: 5px;
-    font-size: 20px;
-    word-wrap: break-word;
-    font-family: "Jura";
-    font-weight: 300;
-    text-align: center;
-}
-
-h1 {    
-    font-family: "Alegreya Sans SC";
-    font-weight: 800;
-    font-size: 3.5em;
-    margin-top: 25px;
-    margin-bottom: 15px;
-}
-
-h2 {
-    font-family: "Coming Soon";
-    font-weight: 400;
-    color: #000000;
-    font-size: 1.5em;
-}
-
-h3, h4, h5 {
-  font-family: "Coming Soon";
-  font-weight: 400;
-  color: #545454;
-  }
-
-/*---- Logo ----*/
-.logo-about {
-    max-width: 40%;
-    max-height: 40%;
-    transition: 1.5s;
-    transition: transform 1.5s;
-    -o-transition:  1.5s;
-    -ms-transition: 1.5s;
-    -webkit-transition: 1.5s;
-}
-
-/*---- Logo Hover Effect - I got this idea from my friend @ https://beard.gg ----*/
-.logo-about:hover {
-  transform: rotateY(180deg);
-}
-
-/*---- Links ----*/
-a {
-    outline: none;
-    border:none;
-    color:#000000;
-    font-size:28px;
-    cursor:pointer;
-    text-decoration:none;
-    text-shadow:none;
-    transition:ease 200ms;
-    -webkit-transition:ease 200ms;
-}
-
-a:hover {
-    color:#700099;
-    transition:ease 200ms;
-    -webkit-transition:ease 200ms;
-}
-
-p a:hover {
+ p a:hover {
    color:#ffffff;
    background-color:#700099;
    border-radius:2px;
@@ -316,38 +243,81 @@ p a:hover {
 }
 
 /*---- About Section ----*/
-.about-head {
-   text-align: center;
-   font-size: 18px;
-   height: 60%;
-   position: relative;
-   text-align: center;
-   background-image: url("../images/funky-lines.png");
-   overflow-x: auto;
-   overflow-y: auto;
-   text-rendering: optimizeLegibility;
-   font-kerning: initial;
-   -webkit-font-smoothing: subpixel-antialiased;
-   -moz-osx-font-smoothing:  inherit;
-   margin-top: -10px;
-   margin-bottom: -20px;
-   border-top: solid;
-   border-top-color: #700099;
-   border-top-width: 2px;
-   border-bottom: solid;
-   border-bottom-color: #700099;
-   border-bottom-width: 2px;
+.about {
+  text-align: center;
 }
 
-.about-head h2 {
-    color: #700099;
-    font-size: 1.5em;
-    font-family: "Coming Soon";
+/*----- Text Items -----*/
+.about p {
+    line-height: 18px;
+    position: relative;
+    border-radius: 5px;
+    font-size: 20px;
+    word-wrap: break-word;
+    font-family: "Jura";
+    font-weight: 300;
+    line-height: 24px;
+    max-width: 800px;
+    min-width: 100px;
+    margin: auto;
+    width: 90%
+    display: inline-block;
+    padding-bottom: 40px;
     text-align: center;
 }
 
-.about-body {
-  text-align: center;
+.about em {
+  font-style: normal;
+  color: #166bc4;
+}
+
+.about h1 {    
+    font-family: "Alegreya Sans SC";
+    font-weight: 800;
+    font-size: 3.5em;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.about h2 {
+    font-family: "Coming Soon";
+    font-weight: 400;
+    color: #000000;
+    font-size: 1.5em;
+}
+
+.about h3, h4, h5 {
+  font-family: "Coming Soon";
+  font-weight: 400;
+  color: #545454;
+  }
+
+/*---- Links ----*/
+.about a {
+    outline: none;
+    border:none;
+    color:#700099;
+    font-size:20px;
+    cursor:pointer;
+    text-decoration:none;
+    text-shadow:none;
+    transition:ease 200ms;
+    -webkit-transition:ease 200ms;
+}
+
+.about a:hover {
+    color:#700099;
+    transition:ease 200ms;
+    -webkit-transition:ease 200ms;
+}
+
+.about p a:hover {
+   color:#ffffff;
+   background-color:#700099;
+   border-radius:2px;
+   padding:2px;
+   transition:ease 200ms;
+   -webkit-transition:ease 200ms;
 }
 
 .about-body p {
@@ -365,79 +335,91 @@ p a:hover {
     display: inline-block;
 }
 
-.about-body ul {
+.about ul {
     font-size: 20px;
     text-align: center;
     word-wrap: break-word;
     font-family: "Jura";
     font-weight: 300;
     line-height: 24px;
-    list-style: none;
+    list-style: disc;
     padding: 0;
+}
 
+.about ul a {
+    outline: none;
+    border:none;
+    color:#700099;
+    font-size:20px;
+    cursor:pointer;
+    text-decoration:none;
+    text-shadow:none;
+    transition:ease 200ms;
+    -webkit-transition:ease 200ms;
+}
+
+.about ul a:hover {
+   color:#ffffff;
+   background-color:#700099;
+   border-radius:2px;
+   padding:2px;
+   transition:ease 200ms;
+   -webkit-transition:ease 200ms;
 }
 
 /*---- Projects Section ----*/
-.projects-head {
-   text-align: center;
-   font-size: 18px;
-   height: 60%;
-   position: relative;
-   text-align: center;
-   background-image: url("../images/funky-lines.png");
-   overflow-x: auto;
-   overflow-y: auto;
-   text-rendering: optimizeLegibility;
-   font-kerning: initial;
-   -webkit-font-smoothing: subpixel-antialiased;
-   -moz-osx-font-smoothing:  inherit;
-   margin-top: -10px;
-   margin-bottom: -20px;
-   border-top: solid;
-   border-top-color: #700099;
-   border-top-width: 2px;
-   border-bottom: solid;
-   border-bottom-color: #700099;
-   border-bottom-width: 2px;
+
+.work {
+  text-align: center;
 }
 
-.projects-head h2 {
-    color: #700099;
-    font-size: 1.5em;
-    font-family: "Coming Soon";
-    text-align: center;
-}
-
-.projects-body {
-}
-
-.projects-body p{
-    padding-top: 40px;
+/*----- Text Items -----*/
+.work p {
+    line-height: 18px;
+    position: relative;
+    border-radius: 5px;
     font-size: 20px;
-    color: #545454;
     word-wrap: break-word;
     font-family: "Jura";
     font-weight: 300;
     line-height: 24px;
-    max-width: 1000px;
+    max-width: 800px;
     min-width: 100px;
     margin: auto;
     width: 90%
     display: inline-block;
-}
-
-.projects-body ul {
-    font-size: 20px;
+    padding-bottom: 40px;
     text-align: center;
-    word-wrap: break-word;
-    font-family: "Jura";
-    font-weight: 300;
-    line-height: 24px;
-    list-style: none;
-    padding: 0;
 }
 
-.projects-body a {
+.work em {
+  font-style: normal;
+  color: #166bc4;
+}
+
+.work h1 {    
+    font-family: "Alegreya Sans SC";
+    font-weight: 800;
+    font-size: 3.5em;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.work h2 {
+    font-family: "Coming Soon";
+    font-weight: 400;
+    color: #000000;
+    font-size: 1.5em;
+}
+
+.work h3, h4, h5 {
+  font-family: "Coming Soon";
+  font-weight: 400;
+  color: #166bc4;
+  }
+
+/*---- Work Links ----*/
+.work a {
     outline: none;
     border:none;
     color:#700099;
@@ -449,13 +431,13 @@ p a:hover {
     -webkit-transition:ease 200ms;
 }
 
-.projects-body a:hover {
+.work a:hover {
     color:#700099;
     transition:ease 200ms;
     -webkit-transition:ease 200ms;
 }
 
-.projects-body p a:hover {
+.work p a:hover {
    color:#ffffff;
    background-color:#700099;
    border-radius:2px;
@@ -464,65 +446,8 @@ p a:hover {
    -webkit-transition:ease 200ms;
 }
 
-.projects-body ul a:hover {
-   color:#ffffff;
-   background-color:#700099;
-   border-radius:2px;
-   padding:2px;
-   transition:ease 200ms;
-   -webkit-transition:ease 200ms;
- }
-
- /*---- Socials and Contact Section ----*/
-.socials-head {
-   text-align: center;
-   font-size: 18px;
-   height: 60%;
-   position: relative;
-   text-align: center;
-   background-image: url("../images/funky-lines.png");
-   overflow-x: auto;
-   overflow-y: auto;
-   text-rendering: optimizeLegibility;
-   font-kerning: initial;
-   -webkit-font-smoothing: subpixel-antialiased;
-   -moz-osx-font-smoothing:  inherit;
-   margin-top: -10px;
-   margin-bottom: -20px;
-   border-top: solid;
-   border-top-color: #700099;
-   border-top-width: 2px;
-   border-bottom: solid;
-   border-bottom-color: #700099;
-   border-bottom-width: 2px;
-}
-
-.socials-head h2 {
-    color: #700099;
-    font-size: 1.5em;
-    font-family: "Coming Soon";
-    text-align: center;
-}
-
-.socials-body {
-}
-
-.socials-body p{
-    padding-top: 40px;
-    font-size: 20px;
-    color: #545454;
-    word-wrap: break-word;
-    font-family: "Jura";
-    font-weight: 300;
-    line-height: 24px;
-    max-width: 1000px;
-    min-width: 100px;
-    margin: auto;
-    width: 90%
-    display: inline-block;
-}
-
-.socials-body ul {
+/*---- Work Lists ----*/
+.work ul {
     font-size: 20px;
     text-align: center;
     word-wrap: break-word;
@@ -530,11 +455,10 @@ p a:hover {
     font-weight: 300;
     line-height: 24px;
     list-style: none;
-    margin-top: -20px;
     padding: 0;
 }
 
-.socials-body a {
+.work ul a {
     outline: none;
     border:none;
     color:#700099;
@@ -546,29 +470,159 @@ p a:hover {
     -webkit-transition:ease 200ms;
 }
 
-.socials-body a:hover {
+.work ul a:hover {
+   color:#ffffff;
+   background-color:#700099;
+   border-radius:2px;
+   padding:2px;
+   transition:ease 200ms;
+   -webkit-transition:ease 200ms;
+}
+
+ /*---- Comms Section ----*/
+
+.comms {
+  text-align: center;
+
+}
+
+.comms img {
+	width: 500px;
+  max-width: 100%;
+	border: solid;
+	border-width: 3px;
+	border-color: #166bc4;
+}
+
+/*----- Text Items -----*/
+.comms p {
+    line-height: 18px;
+    position: relative;
+    border-radius: 5px;
+    font-size: 20px;
+    word-wrap: break-word;
+    font-family: "Jura";
+    font-weight: 300;
+    line-height: 24px;
+    max-width: 800px;
+    min-width: 100px;
+    margin: auto;
+    width: 90%
+    display: inline-block;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.comms em {
+  font-style: normal;
+  color: #166bc4;
+}
+
+.comms h1 {    
+    font-family: "Alegreya Sans SC";
+    font-weight: 800;
+    font-size: 3.5em;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.comms h2 {
+    font-family: "Coming Soon";
+    font-weight: 400;
+    color: #000000;
+    font-size: 1.5em;
+}
+
+.comms h3, h4, h5 {
+  font-family: "Coming Soon";
+  font-weight: 400;
+  font-size: 28px;
+  color: #166bc4;
+  }
+
+/*---- Work Links ----*/
+.comms a {
+    outline: none;
+    border:none;
+    color:#700099;
+    font-size:20px;
+    cursor:pointer;
+    text-decoration:none;
+    text-shadow:none;
+    transition:ease 200ms;
+    -webkit-transition:ease 200ms;
+}
+
+.comms a:hover {
     color:#700099;
     transition:ease 200ms;
     -webkit-transition:ease 200ms;
 }
 
-.socials-body p a:hover {
+.comms p a:hover {
    color:#ffffff;
    background-color:#700099;
    border-radius:2px;
    padding:2px;
    transition:ease 200ms;
    -webkit-transition:ease 200ms;
- }
+}
 
-.socials-body ul a:hover {
+/*---- Comms Lists ----*/
+.comms ul {
+    font-size: 20px;
+    text-align: center;
+    word-wrap: break-word;
+    font-family: "Jura";
+    font-weight: 300;
+    line-height: 24px;
+    list-style: none;
+    padding: 0;
+}
+
+.comms ul a {
+    outline: none;
+    border:none;
+    color:#700099;
+    font-size:20px;
+    cursor:pointer;
+    text-decoration:none;
+    text-shadow:none;
+    transition:ease 200ms;
+    -webkit-transition:ease 200ms;
+}
+
+.comms ul a:hover {
    color:#ffffff;
    background-color:#700099;
    border-radius:2px;
    padding:2px;
    transition:ease 200ms;
    -webkit-transition:ease 200ms;
- }
+}
+
+code {
+	color: #700099;
+	background-color: #cdcdcd;
+	height: 140px;
+	width: 250px;
+	overflow: auto;
+	font-family: "Jura";
+	font-weight: 300;
+	font-size: 18px;
+	padding-top: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-bottom: 2px;
+}
+
+.comms hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin-bottom: 10px;
+    margin-top: 6px;
+}
 
  /*---- Footer ---*/
 .footer {
