@@ -1,0 +1,66 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+***
+My PGP key has been updated! See: https://cryptoseb.pw/new-key.txt
+My old key is still active but I will NOT be using it for signing
+or encrypting any further messages. The above verification should
+be enough.
+***
+
+Crypto | Seb Dec 23, 2015 01:12:02
+Welcome back fucker.
+This is your PGP Fingerprint right?
+78F5 6FC8 CA2C 37FC 8594 2C8E E42E 0C88 F244 74B
+
+Lunar Dec 23, 2015 01:12:39
+Let me check
+Yes
+78F5 6FC8 CA2C 37FC 8594 2C8E E42E 0C88 F244 74B1
+Missed the 1
+
+Crypto | Seb Dec 23, 2015 01:13:28
+Alright to confirm, I am going to ask you a serious of 3-4 questions that only you would know. I am going to sign it so this is for validity. You can screenshot this if you want after.
+
+Lunar Dec 23, 2015 01:13:46
+Ok
+Crypto | Seb Dec 23, 2015 01:15:04
+1) Yes or no - you have part of a password of mine stored on your system in an encrypted format
+
+Lunar Dec 23, 2015 01:15:12
+Yes
+
+Crypto | Seb Dec 23, 2015 01:15:46
+2) Yes or no - I just made an $8 donation to CryptoWorld using the email donate@cryptoworld.is through PayPal
+
+Lunar Dec 23, 2015 01:15:54
+Yes
+
+Crypto | Seb Dec 23, 2015 01:16:32
+3) What company have I been dealing with recently to hand over our project we developed?
+
+Lunar Dec 23, 2015 01:16:44
+CryptoStorm
+
+Crypto | Seb Dec 23, 2015 01:16:53
+3/3 Good. You are Lunar :)
+
+Lunar Dec 23, 2015 01:16:59
+:D
+-----BEGIN PGP SIGNATURE-----
+Comment: https://cryptoseb.pw/
+
+iQIcBAEBCAAGBQJXFGEFAAoJEHJchqbqqGxy6HgP/Ah0joLjgRFWmR7kyCmEV8px
+nIEzzbj/bRTqpnYJNY+l7WyBQIp2X95CXD+ZgSn/Zxv5v0D296Cen5pHIOr1XMnh
+deMyVpbk1lsGnc/8E0q+H/zocgmIlKeefbQI3jk9iAOrYkYP/lg7toD2HOBmw4Xr
+QQmN3Yt6NcJgSFV0tmCmmSfPlZCFfTVT9JQyXKDMEHRV0wy7jtK+8RQD4eXcTE93
+e80ArxMMlJkXYElFxLJINjvr0HPJLxfil1ozGdLEpGHkYb+5fTVJRDdtB/hH4nTQ
+tdwfprVNTTvcs+deJNy/56P896EG1Cvp5ZSgOS6JIe+olXVC6Vd7hf1QPBCWlAoH
+zjA0nHduMwW2FHD73EJq7KYvR9feDP9zH0G0ggxln2V8iaBMB485Kdzz1MbAbf2U
+hUJVqsfxqdy3thqQVWL2smDmOKdsbLXfNXfR7d5Mpp6+23yzIqObfLOLSzC+3z5v
+4Pw0sFRVEW27guqL2WyvZpe/DmkVUeE3ZtkYU9krc2pBQsakHL6M7Z0gyahw5RcZ
+vxZ2TCUOvWn3QsDNr+nY0a3ytP9I8ESDVBge0h/tDzs902SsqaX2X4F3kv2uct4o
+iTkc94qLWmvs9ANjYxm6b89I1Hv1QvzdldBr32qG6wHG3i0AfszdCDlwLaVtES8y
+CY9g4qeGARC7o0JAuJP8
+=i+sc
+-----END PGP SIGNATURE-----
